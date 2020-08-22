@@ -23,7 +23,6 @@ a {
 .image {
     display: flex;
     max-width: 100%;
-    border: 2px solid black;
 }
 img {
     height: auto;
