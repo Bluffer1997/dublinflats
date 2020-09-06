@@ -25,7 +25,7 @@ img {
     min-height: 50vh;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     /* Background Properties */
     /* background-image: url("../images/dublin_ireland_bridge_city.jpg");
@@ -34,6 +34,23 @@ img {
     background-position: center; */
     /* Contrast */
     /* filter: contrast(1.25); */
+}
+
+.container .heading {
+    border-left: 2px solid #000;
+    padding-left: 15px;
+}
+
+.container .main {
+    min-height: 80px;
+    margin-top: 250px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.container .main:first-child {
+    display: block;
 }
 
 .image {
